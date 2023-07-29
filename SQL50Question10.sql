@@ -1,4 +1,4 @@
--- Question 9 of LeetCode's SQL 50 challenge.
+-- Question 10 of LeetCode's SQL 50 challenge.
 
 SELECT A.machine_id, round(avg(B.timestamp - A.timestamp), 3) as processing_time 
 FROM Activity A, Activity B
